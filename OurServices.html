@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Services</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: rgb(226, 222, 222);
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+            display: flex; /* Added flexbox */
+            flex-wrap: wrap; /* Allow wrapping */
+            justify-content: flex-start; /* Align to the start */
+        }
+        .service-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px; /* Adjusted width for better side-by-side */
+            height:450px; /* Adjusted height to auto */
+            margin: 30px; /* Added margin for spacing */
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            box-sizing: border-box; /* Include padding in width */
+        }
+        .service-card h2 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .service-card img {
+           width:150px;
+            height:130px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: rgb(226, 222, 222);
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #dee2e6;
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: inline-flex; /* Display nav items horizontally */
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+        @media (max-width: 768px) {
+            .service-card {
+                width: 100%; /* Make cards full-width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MATRIX UNIVERSITY</h1>
+        <b><p>Our Services</p></b>
+        <nav>
+            <ul>
+                <a href="About.html"><li>About</li></a>
+                <a href="Departments.html"><li>Departments</li></a>
+                <a href="OurServices.html"><li>Services</li></a>
+                <a href="Contact.html"><li>Contact</li></a>
+            </ul>
+        </nav><br/>
+    </header>
+
+    <section>
+
+        <div class="service-card">
+            <h2>Library Services</h2>
+            <img src="download 2.jpeg" alt="Library">
+            <p>Access to a vast collection of books, journals, and online resources. Study spaces, computer labs, and research assistance are also available.</p>
+        </div>
+
+        <div class="service-card">
+            <h2>Accommodation</h2>
+            <img src="download 4.jpeg" alt="Accommodation">
+            <p>On-campus and off-campus accommodation options are available. We strive to provide comfortable and safe living environments for our students.</p>
+        </div>
+
+        <div class="service-card">
+            <h2>Sports and Recreation</h2>
+            <img src="download 5.jpeg" alt="Sports">
+            <p>A wide range of sports facilities and recreational activities are offered, including gyms, swimming pools, sports clubs, and intramural competitions.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 University Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

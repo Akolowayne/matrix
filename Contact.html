@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contact us</title>
+</head>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+}
+.header {
+    background-color: #007bff; /* Blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.university-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Darker background for footer */
+    color: white;
+}
+.footer a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+/* Styles for responsiveness */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}
+.logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px; /* Adjust as needed */
+            margin-right: 10px;
+        }
+nav{
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+        <header>
+            <div class="logo">
+                <img src="matrix-university-logo.png" alt="MATRIX UNIVERSITY"> 
+                MATRIX UNIVERSITY
+            </div>
+            <nav>
+                <ul>
+                    <a href="About.html"><li>About</li></a>
+                    <a href="Departments.html"><li>Departments</li></a>
+                    <a href="OurServices.html"><li>Services</li></a>
+                    <a href="Contact.html"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <div class="container">
+        <div class="university-info">
+            </div>
+
+        <h2>Send Us A Message</h2>
+        <hr>  <form action="connect.php" method="post">  <div class="form-group">
+                <label for="name">Your Name (required)</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email (required)</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    
+    <div class="container">
+       
+        <p>A world renowned University dedicated to providing quality education</p>
+    </div>
+   
+    
+        <div class="footer">
+            <p>&copy; 2023 MATRIX UNIVERSITY. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    
+    
+    </body>
+    </html>
+<main>
+    
+
+</main>
+<footer>
+    <p>&copy;2024 Matrix University</p>
+</footer>
+</body>
+</html>
+
